@@ -1,0 +1,15 @@
+"Get inside the thecmdchallenge/ directory": $ cd thecmdchallenge/
+"Print current directory path": $ pwd
+"List all the files from the current diretory including the hidden ones": $ ls -a
+"Now list all the files inside the project, recursively (all files in the hierarchy)": $ ls -r
+"Clear all the clutter from the command line": $ clear
+"Go to the last level below the small-name folder and show on the console the content of the trophy.txt file.": $ cd small-name/ $ ls $ cd bigger-name-than-before $ ls $ cd omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/ $ ls $ cd this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/ $ ls $ cat trophy.txt
+"Move one level up and get to the funcode directory and list all files with the javascript typical extension": $ cd .. $ cd .. $ cd .. $ cd .. $ cd funcode/ $ ls *.js 
+"Create a new directory inside funcode/the-most-funny/ called “not-that-funny“": $ cd the-most-funny/ $ mkdir not-that-funny 
+"Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt": $ cd .. $ cd .. $ cd boringfolder/ $ cd event-more-boring/ $ ls $ cd i-can-believe-how-boring/ $ ls $ cd the-ulrimate-boring-inception/ $ ls $ cp the-mostboring-text.txt lol.txt
+"Move funcode/kids.jpg inside funcode/images/hello/": $ cd .. $ cd .. $ cd funcode/ $ mv kids.jpg images/ $ mv kids.jpg hello/
+"Remove the “small-name“ directory": $ cd .. $ cd .. $ cd .. $ rm -rf small-name/
+"Print in the command line the content of the-ultimate-joke.txt": $ cd .. $ find . -name the-ultimate-joke.txt $ cd thecmdchallenge/funcode/the-most-funny/lol/ $ cat the-ultimate-joke.txt
+"Remove all the contents from the boringfolder, they are extremely boring…": $ cd .. $ cd .. $ cd .. $ rm -rf boringfolder/*
+"Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor": cd kamehameha/ $ vi dragon-ball-jokes.md
+"Update the file kamehameha/dragon-ball-jokes.md by removing the first joke you read on the file, finally save and close the text editor": He borrado el primer chiste dándole a la tecla Supr y después: :w (para guardar) y :q (para cerrar el editor).
